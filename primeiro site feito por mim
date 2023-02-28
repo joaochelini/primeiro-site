@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>projeto teste</title>
+</head>
+<body>
+    <div class="topo">
+        <div class="topoint">
+            <div class="topoleft">
+                <ul>
+                    <li><a href="./" class="ativo">Home</a></li>
+                    <li><a href="quem-somos"><a href="">Quem somos</a></li>
+                    <li><a href="anuncie-aqui"><a href=""><a href="">Anuncie Aqui</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toporight">
+                 <input type="image" src="./search.png" border="0" width="26" height="26">
+                <input type="text" name="Busca" class="topobusca" placeholder="Busca...">
+                <a href=""><img src="./youtube.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./twitter.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./facebook.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./googleplus.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./rss.png" border="0" wodth="26" height="26"></a>
+            </div>
+        </div>
+   </div>
+   <div class="topo2">
+        <div class="topo2int">
+            <div class="logo">
+                <img src="./shoe.png" border="0" width="90">
+            </div>
+            <div class="banner"></div>
+        </div>
+   </div>
+   <div class="menu">
+        <div class="menuint">
+            <ul>
+                <li><a href="./" class="ativo">Home</a></li>
+                <li><a href="./">Economia</a></li>
+                <li>
+                    <a href="./">Entretenimento</a>
+                    <img src="./arrowdown.png" border="0" width="12px">
+                    <div class="submenu">
+                        <a href="./"><div class="submenuitem">Submenu 1</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 2</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 3</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 4</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 5</div></a>
+                    </div>
+                </li>
+                <li>
+                    <a href="./">Esportes</a>
+                    <img src="./arrowdown.png" border="0" width="12px">
+                    <div class="submenu">
+                        <a href="./"><div class="submenuitem">Submenu 1</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 2</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 3</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 4</div></a>
+                    </div>
+                <li><a href="./">Geral</a></li>
+                <li>
+                    <a href="./">Noticias</a>
+                    <img src="./arrowdown.png" border="0" width="12px">
+                    <div class="submenu">
+                        <a href="./"><div class="submenuitem">Submenu 1</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 2</div></a>
+                        <a href="./"><div class="submenuitem">Submenu 3</div></a>
+                    </div>
+                <li><a href="./">Policia</a></li>
+                <li><a href="./">Videos</a></li>
+            </ul>
+        </div>
+   </div>
+   <div class="ultimasnoticias">
+        <div class="ultimasnoticiasint">
+            <div class="ultnoticiasarea">
+                <div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+                <div class="ultnoticiasnoticia">Verificado
+                Em suas versões de cano baixo e alto, o Air Force 1 também foi escalado para fazer parte das celebrações de 50 anos da cultura Hip-Hop.⁠</div>
+            </div>
+        </div>
+   </div>
+   <div class="container">
+    <div class="containerint">
+        <div class="leftside">
+            <div class="slideshow" id="slideshow">
+                <div class="slidebolinhas">
+                    <div class="bolinha" onclick="mudarSlide(0)"></div>
+                    <div class="bolinha" onclick="mudarSlide(1)"></div>
+                    <div class="bolinha" onclick="mudarSlide(2)"></div>
+                    <div class="bolinha" onclick="mudarSlide(3)"></div>
+                </div>
+                <div class="slideshowarea">
+                    <a href="https://br.pinterest.com/pin/627055948131468997/">
+                        <div class="slide" style="background-image:url(https://i.pinimg.com/564x/f5/4b/af/f54baf9a0a43d7eb40ce718460663e0b.jpg);">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Título de teste 1</div>
+                                <div class="slideinfo_subtitulo"> SubTítulo de teste</div>
+                            </div>
+                        </div>
+                    </a>    
+                    <a href="https://br.pinterest.com/pin/8866530507359735/">
+                        <div class="slide" style="background-image:url(https://i.pinimg.com/564x/fb/64/97/fb6497e9e817b1fd0d921d5a70e1e5e4.jpg);">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Título de teste 2</div>
+                                <div class="slideinfo_subtitulo"> SubTítulo de teste</div>
+                            </div>
+                        </div>
+                    </a>    
+                    <a href="https://br.pinterest.com/pin/903042162759224088/">
+                        <div class="slide" style="background-image:url(https://i.pinimg.com/564x/4d/84/ee/4d84ee3ddb43f5d9e55d5ff76b11f78b.jpg);">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Título de teste 3</div>
+                                <div class="slideinfo_subtitulo"> SubTítulo de teste</div>
+                            </div>
+                        </div>
+                    </a>    
+                    <a href="https://br.pinterest.com/pin/705305991657273473/">
+                        <div class="slide" style="background-image:url(https://i.pinimg.com/564x/91/a0/3f/91a03f8eddcb9c5e8241a4cc7353b432.jpg);">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">Título de teste 4</div>
+                                <div class="slideinfo_subtitulo"> SubTítulo de teste</div>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+            </div>
+
+            <div class="widget">
+                <div class="widget_titulo">NOTÍCIAS</div>
+                <div class="widget_conteudo">
+                    <div class="noticiaarea1">
+                        <a href="https://droper.app/d/307/Off-White_x_Air_Jordan_4_Sail_Feminino">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="./offwhite.jpg" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo"> JORDAN 4 OFF WHITE</div>
+                                <div class="noticiainfo">Virgil Abloh volta a trabalhar silhuetas da Jordan nessa criação única, a silhueta escolhida da vez foi a lendária Air Jordan 4. Após espreitadelas em Paris e Chicago, sua mais recente colaboração finalmente chegou, ostentando o texto em negrito patenteado da marca gráficos e uma maquiagem de cores suaves.</div>
+                            </div>
+                    </a>
+                    </div>
+                    <div class="noticiaarea2">
+                        <a href="https://droper.app/buscar/air%20max%20tailwind">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="./airmax.jpg" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo"> AIR MAX TAILWIND</div>
+                                <div class="noticiainfo">O Nike Air Max Tailwind IV dá um novo visual ao clássico dos anos 90. As unidades Max Air oferecem conforto e estilo duradouros.</div>
+                            </div>
+                        </a>     
+                        <a href="https://droper.app/d/1248/Fragment_Design_x_Travis_Scott_x_Air_Jordan_1_Low">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="./jordantravis.jpg" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo"> JORDAN TRAVIS</div>
+                                <div class="noticiainfo">O Air Jordan 1 Travis Scott "Cactus Jack" é o resultado de uma das colaborações mais esperadas dei ano de 2019.</div>
+                            </div>
+                        </a>    
+                        <a href="https://droper.app/d/553/Nike_Dunk_Low_Black_Panda__2021_">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="./dunk.jpg" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo"> DUNK LOW</div>
+                                <div class="noticiainfo">Em um dos primeiros lançamentos da linha Dunk em 2021 a Nike traz uma colorway clássica de volta a tona neste novo lançamento.</div>
+                            </div>
+                        </a>    
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widget_titulo">NOTÍCIAS</div>
+                <div class="widget_conteudo">
+                    <div class="noticiaarea1">
+                        <div class="noticiaitem noticiabig">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80"/>
+                            </div>
+                            <div class="noticiatitulo"> JORDAN 4 OFF WHITE</div>
+                            <div class="noticiainfo">Virgil Abloh volta a trabalhar silhuetas da Jordan nessa criação única, a silhueta escolhida da vez foi a lendária Air Jordan 4. Após espreitadelas em Paris e Chicago, sua mais recente colaboração finalmente chegou, ostentando o texto em negrito patenteado da marca gráficos e uma maquiagem de cores suaves.</div>
+                        </div>
+                    </div>
+                    <div class="noticiaarea2">
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80"/>
+                            </div>
+                            <div class="noticiatitulo"> AIR MAX TAILWIND</div>
+                            <div class="noticiainfo">O Nike Air Max Tailwind IV dá um novo visual ao clássico dos anos 90. As unidades Max Air oferecem conforto e estilo duradouros.</div>
+                        </div>
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80"/>
+                            </div>
+                            <div class="noticiatitulo"> JORDAN TRAVIS</div>
+                            <div class="noticiainfo">O Air Jordan 1 Travis Scott "Cactus Jack" é o resultado de uma das colaborações mais esperadas dei ano de 2019.</div>
+                        </div>
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80"/>
+                            </div>
+                            <div class="noticiatitulo"> DUNK LOW</div>
+                            <div class="noticiainfo">Em um dos primeiros lançamentos da linha Dunk em 2021 a Nike traz uma colorway clássica de volta a tona neste novo lançamento.</div>
+                        </div>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="rightside">
+            <div class="widget">
+                <div class="widget_titulo">SOCIAL</div>
+                <div class="widget_conteudo">
+                    <a href=""><img src="./youtube.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./twitter.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./facebook.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./googleplus.png" border="0" wodth="26" height="26"></a>
+                <a href=""><img src="./rss.png" border="0" wodth="26" height="26"></a>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+                <div class="widget_conteudo">
+                    <div class="noticiaitem">
+                        <a href="">Começaram a surgir fotos e vídeos de mais uma possível novidade do Air Max Day de 2023: o tão aguardado Air Max 1 com a “janelona” no solado.</a>
+                    </div>
+                    <div class="noticiaitem">
+                        <a href="./">Numa clara homenagem a uma das colorways mais clássicas - e simples - do Air Force 1, os italianos da Slam Jam criaram uma nova e caprichada interpretação do modelo.</a>
+                    </div>
+                    <div class="noticiaitem">
+                        <a href="./">Depois de já ter transformado outros clássicos em chinelo, a Nike resolveu criar um Air Max 1 Slide, que também deve chegar às lojas nos dias próximos ao Air Max Day desse ano.⁠</a>
+                    </div>
+                    <div class="noticiaitem">
+                        <a href="./">O novo integrante da família com cápsula de AIR visível parece dar continuidade ao visual de modelos como o Air Max 270, e a primeira colorway combina branco com vermelho.⁠</a>
+                    </div>
+                    <div class="noticiaitem">
+                        <a href="./">Preto com branco ou branco com preto? Independente da sua escolha, tem mais dois Air Force 1 da @ambush_official prontos pra chegar às lojas, só esperando uma data de lançamento.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widget_titulo">PUBLICIDADES</div>
+                <div class="widget_conteudo">
+                    <img src="./nike.jpg" border="0" width="275">
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widget_titulo">ENCONTRENOS NO FACEBOOK</div>
+                <div class="widget_conteudo">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnike&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="275" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
+
+css
+
+body {
+	margin: 0;
+	font-family: arial;
+	font-size: 12px;
+}
+.topo {
+	height: 30px;
+	background-color: #333;
+}
+.topoint {
+	width: 100%;
+	max-width: 1700px;
+	height: 30px;
+	margin: auto;
+}
+.topoleft {
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.toporight {
+	width: 50%;
+	height: 30px;
+	float: right;
+	text-align: right;
+	margin-top: 2px;
+}
+.topoleft ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.topoleft li {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.topoleft li a {
+	text-decoration: none;
+	color: grey;
+}
+.topoleft li .ativo {
+	color: lightblue;
+}
+.topobusca {
+	width: 110px;
+	height: 21px;
+	outline: 0;
+}
+.toporight a {
+	float: right;
+}
+.toporight input {
+	float: right;
+}
+.toporight img {
+	margin-right: 4px;
+}
+
+.topo2 {
+	height: 95px;
+	background-color: white;
+}
+.topo2int {
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin: auto;
+}
+.logo {
+	width: 230px;
+	height: 90px;
+	float: left;
+	margin-top: 5px;
+}
+.topo2 .banner {
+	width: 650px;
+	height: 80px;
+	float: right;
+	margin-top: 7px;
+	background-color: black;
+}
+.menu {
+	height: 40px;
+	background-color: #333;
+}
+.menuint {
+	width: 100%;
+	height: 1700px;
+	margin: auto;
+}
+.menu ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.menu li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 8px;
+}
+.menu li:hover .submenu{
+	display: block;
+}
+.menu a {
+	color: grey;
+	text-decoration: none;
+}
+.submenu {
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+	position: absolute;
+	display: none;
+}
+.submenuitem {
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	color: lightgrey;
+	padding-left: 10px;
+}
+.submenuitem:hover {
+	background-color: #eee;
+}
+.ultimasnoticias {
+	height: 40px;
+}
+.ultimasnoticiasint {
+	width: 100%;
+	max-width: 1700px;
+	height: 40px;
+	margin: auto;
+}
+.ultnoticiasarea {
+	height: 28px;
+	background-color: white;
+	border: 1px solid #eee;
+	margin-top: 10px;
+}
+.ultnoticiastitulo {
+	background-color: lightgrey;
+	color: grey;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+}
+.ultnoticiasnoticia {
+	color: black;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-top: 1px;
+}
+.containerint {
+	width: 100%;
+	max-width: 1700px;
+	margin: auto; 
+	background-color: grey;
+}
+.leftside {
+	width: 753px;
+	float: left;
+}
+.rightside {
+	width: 275px;
+	min-height: 200px;
+	float: right;
+	margin-left: 12px;
+}
+.widget {
+	border: 1px solid #CCC;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.widget_titulo {
+	height: 30px;
+	line-height: 30px;
+	background-color: #DDD;
+	border-bottom: 1px solid #CCC;
+	padding-left: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.widget_conteudo {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.noticiaitem {
+	font-size: 14px;
+	margin: 0px 10px;
+	padding: 10px 0px;
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+}
+.noticiaitem a {
+	text-decoration: none;
+	color: grey;
+}
+.slideshow {
+	height: 335px;
+	background-color: #CCC;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.slideshowarea {
+	width: 100000px;
+	height: 335px;
+	background-color: black;
+	transition: all 1s;
+}
+.slide {
+	height: 335px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slideinfo {
+	height: 70px;
+	background-image: url('../images/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top: 265px;
+}
+.slideinfo_titulo {
+	font-size: 20px;
+	color: grey;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.slideinfo_subtitulo {
+	font-size: 15px;
+	color: lightgray;
+	padding-left: 20px;
+}
+.slidebolinhas {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+}
+.bolinha {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+.noticiaarea1 {
+	width: 430px;
+	height: 420px;
+	float: left;
+}
+.noticiaarea2 {
+	width: 320px;
+	height: 420px;
+	float: left;
+}
+.noticiaitem {
+	text-align: left;
+	height: 88px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.noticiaimg {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #CCC;
+	padding: 3px;
+	float: left;
+}
+.noticiatitulo {
+	width: 200px;
+	float: left;
+	margin-left: 6px;
+	font-size: 16px;
+	color: grey;
+}
+.noticiainfo {
+	width: 200px;
+	font-size: 12px;
+	margin-left: 6px;
+	color: #999;
+	float: left;
+}
+.noticiabig {
+	margin-left: 10px;
+}
+.noticiabig .noticiaimg {
+	width: 384px;
+	height: 222px;
+}
+.noticiabig .noticiaimg img {
+	width: 384px;
+	height: 222px;
+}
+.noticiabig .noticiatitulo {
+	width: 384px;
+	font-size: 30px;
+}
+
+JAVASCRIPT
+
+var slideItem = 0;
+window.onload = function() {
+	setInterval(passarSlide, 2000);
+
+	var slidewidth = document.getElementById("slideshow").offsetWidth;
+	var objs = document.getElementsByClassName("slide");
+	for(var i=0;i<objs.length;i++) {
+		objs[i].style.width = slidewidth+"px";
+	}
+}
+function passarSlide() {
+	var slidewidth = document.getElementById("slideshow").offsetWidth;
+	
+	if(slideItem >= 3) {
+		slideItem = 0;
+	} else {
+		slideItem++;
+	}
+
+	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+}
+function mudarSlide(pos) {
+	slideItem = pos;
+	var slidewidth = document.getElementById("slideshow").offsetWidth;
+	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+}
+
+function toggleMenu() {
+
+	var menu = document.getElementById("menu");
+
+	if (menu.style.display == 'none' || menu.style.display == '') {
+		menu.style.display = "block";
+	} else {
+		menu.style.display = "none";
+	}
+
+}
